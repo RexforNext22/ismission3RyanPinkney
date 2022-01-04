@@ -1,0 +1,46 @@
+﻿/* Ryan Pinkney
+   This is my custom style sheet.
+*/
+
+/* Custom style for the body */
+body {
+    text-align: center;
+}
+
+/* Custom style for the form */
+form {
+    display: inline-block;
+}
+
+/* Custom style for the list */
+li {
+  text-align: center;
+}
+
+/* Custom style to center text */
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Custom style to center the ordered list */
+ol.center li {
+    text-align: left;
+    margin-left: 42%;
+}
+
+/* Custom style for the paragraph, p tags */
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Custom style for the h3 tags */
+h3 {
+    color: blue;
+}
+
+/* Custom style for the image */
+img {
+    border: 5px solid #555;
+}
