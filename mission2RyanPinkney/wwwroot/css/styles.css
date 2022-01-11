@@ -10,6 +10,7 @@ body {
 /* Custom style for the form */
 form {
     display: inline-block;
+    text-align: center;
 }
 
 /* Custom style for the list */
