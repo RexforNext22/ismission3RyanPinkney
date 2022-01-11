@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--Make sure the page has a title-->
+    <title>@ViewBag.Title</title>
+
+    <!--Connect the css from my style sheet and the bootstrap-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!--Add the favicon-->
+    <link rel="icon" href="img/download.png">
+</head>
+<body style="text-align: center; display: inline-block; ">
+
+    <nav>
+        <a asp-controller="Main" asp-action="Index">Home</a>
+        <a asp-controller="Main" asp-action="GradeCal">Grade Calculator</a>
+
+    </nav>
+
+
+
+        @RenderBody()
+
+
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/gradecalculator.js"></script>
+</body>
+</html>
