@@ -5,12 +5,7 @@
         <State name="__root__">
           <Node name="mission2RyanPinkney" expanded="True">
             <Node name="mission2RyanPinkney" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Models" selected="True" />
             </Node>
           </Node>
         </State>
