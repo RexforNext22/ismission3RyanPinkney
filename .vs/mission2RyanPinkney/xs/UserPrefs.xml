@@ -1,10 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="mission2RyanPinkney/Models/GradeCal.cs">
+    <Files>
+      <File FileName="mission2RyanPinkney/Models/GradeCal.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mission2RyanPinkney" expanded="True">
-            <Node name="mission2RyanPinkney" expanded="True" selected="True" />
+            <Node name="mission2RyanPinkney" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="GradeCal.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
