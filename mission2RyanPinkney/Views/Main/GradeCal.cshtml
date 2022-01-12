@@ -6,12 +6,13 @@
     ViewData["Title"] = "Grade Calculator";
 }
 
+@model GradeCal;
 
 <!--Grade calcualtor form-->
 <h3 style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;">Grade Calculator</h3>
 <br />
-<form style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;">
+<form style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;" method="POST">
     <label>Please enter your grade as a percentage.</label> <!--Place for the user to input the grade percentage-->
-    <input id="percent" type="text" />
-    <input id="cal" type="button" value="Calculate Grade" /> <!--Button to submit the information in the form-->
+    <input id="percent" type="text" asp-for="iPercent" />
+    <input id="cal" type="submit" value="Calculate Grade" /> <!--Button to submit the information in the form-->
 </form>

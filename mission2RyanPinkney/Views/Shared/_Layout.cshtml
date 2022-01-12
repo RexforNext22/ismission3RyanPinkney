@@ -8,17 +8,14 @@
     <title>@ViewBag.Title</title>
 
     <!--Connect the css from my style sheet and the bootstrap-->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
 
     <!--Add the favicon-->
     <link rel="icon" href="img/download.png">
 </head>
 <body>
-<<<<<<< HEAD
-=======
 
->>>>>>> 9e8d9c80b8ae3c9338c9fa403acd53fbb88993a5
     <nav>
         <a asp-controller="Main" asp-action="Index">Home</a>
         <a asp-controller="Main" asp-action="GradeCal">Grade Calculator</a>
@@ -30,8 +27,8 @@
     @RenderBody()
 
     <!--Import the different js files to my index page.-->
-    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
-    <script src="js/gradecalculator.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/js/gradecalculator.js"></script>
 </body>
 </html>
 
