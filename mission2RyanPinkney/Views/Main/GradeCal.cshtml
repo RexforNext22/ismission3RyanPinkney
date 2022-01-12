@@ -12,7 +12,15 @@
 <h3 style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;">Grade Calculator</h3>
 <br />
 <form style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;" method="POST">
-    <label>Please enter your grade as a percentage.</label> <!--Place for the user to input the grade percentage-->
-    <input id="percent" type="text" asp-for="iPercent" />
+    <label>Assignments</label> <!--Place for the user to input the grade percentage-->
+    <input id="iAssignment" type="text" asp-for="iAssignment" />
+    <label>Group Project</label> <!--Place for the user to input the grade percentage-->
+    <input id="iGroupProject" type="text" asp-for="iGroupProject" />
+    <label>Quizzes</label> <!--Place for the user to input the grade percentage-->
+    <input id="iQuizzes" type="text" asp-for="iQuizzes" />
+    <label>Exams</label> <!--Place for the user to input the grade percentage-->
+    <input id="iExams" type="text" asp-for="iExams" />
+    <label>INTEX</label> <!--Place for the user to input the grade percentage-->
+    <input id="iINTEX" type="text" asp-for="iINTEX" />
     <input id="cal" type="submit" value="Calculate Grade" /> <!--Button to submit the information in the form-->
 </form>
