@@ -11,7 +11,6 @@ $("#cal").click(function () {
     //Initalize the output varaible
     sLetterGrade = ""
 
-    alert(fPercent)
 
     // This if statement will determine the letter grade for the percentage
     if (fPercent >= 93) {

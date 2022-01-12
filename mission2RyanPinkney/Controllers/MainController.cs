@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using mission2RyanPinkney.Models; // Import the models
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -17,7 +18,15 @@ namespace mission2RyanPinkney.Controllers
         }
 
         // GET: /<controller>/
+        [HttpGet]
         public IActionResult GradeCal()
+        {
+            return View();
+        }
+
+        // Grade Calculator post method for the form
+        [HttpPost]
+        public IActionResult GradeCal(GradeCal model)
         {
             return View();
         }

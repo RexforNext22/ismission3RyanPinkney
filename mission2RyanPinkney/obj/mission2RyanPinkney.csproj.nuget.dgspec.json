@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission2RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj": {}
+    "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission3RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj": {}
   },
   "projects": {
-    "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission2RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj": {
+    "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission3RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission2RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj",
+        "projectUniqueName": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission3RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj",
         "projectName": "mission2RyanPinkney",
-        "projectPath": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission2RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj",
+        "projectPath": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission3RyanPinkney/mission2RyanPinkney/mission2RyanPinkney.csproj",
         "packagesPath": "/Users/ryanpinkney/.nuget/packages/",
-        "outputPath": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission2RyanPinkney/mission2RyanPinkney/obj/",
+        "outputPath": "/Users/ryanpinkney/OneDrive - BYU/IS 413/mission3RyanPinkney/mission2RyanPinkney/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ryanpinkney/.config/NuGet/NuGet.Config"
