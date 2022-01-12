@@ -1,11 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="36" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mission2RyanPinkney" expanded="True">
             <Node name="mission2RyanPinkney" expanded="True">
-              <Node name="Models" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
