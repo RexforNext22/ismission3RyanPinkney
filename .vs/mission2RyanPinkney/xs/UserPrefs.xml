@@ -1,8 +1,16 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="mission2RyanPinkney/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="34" Column="3" />
       <File FileName="mission2RyanPinkney/Views/Main/Index.cshtml" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="mission2RyanPinkney/Views/Main/GradeCal.cshtml">
+    <Files>
+      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="17" Column="6" />
+      <File FileName="mission2RyanPinkney/Views/Main/Index.cshtml" Line="1" Column="1" />
+      <File FileName="mission2RyanPinkney/Views/Main/GradeCal.cshtml" Line="1" Column="1" />
+>>>>>>> 9e8d9c80b8ae3c9338c9fa403acd53fbb88993a5
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +19,10 @@
             <Node name="mission2RyanPinkney" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Main" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="Main" expanded="True">
+                  <Node name="GradeCal.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
