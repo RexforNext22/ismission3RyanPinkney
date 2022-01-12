@@ -6,9 +6,27 @@
 $("#cal").click(function () {
 
     // Collect the input values
-    fPercent = parseInt($("#percent").val())
+
+    iAssignment = parseInt($("#Assignment").val())
+    iGroupProject = parseInt($("#GroupProject").val())
+    iQuizzes = parseInt($("#Quizzes").val())
+    iExams = parseInt($("#Exams").val())
+    iINTEX = parseInt($("#INTEX").val())
+    fPercent = 0.00
+
+
+    // Calculate the grade percent
+
+    fPercent = (iAssignment * .55) + (iGroupProject * .05) + (iQuizzes * .10) + (iExams * .20) + (iINTEX * .10)
+
+
+    //Round the final grade
+
+    fPercent = Math.round(fPercent * 100) / 100
+
 
     //Initalize the output varaible
+
     sLetterGrade = ""
 
 
