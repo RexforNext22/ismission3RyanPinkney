@@ -1,28 +1,10 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="20" Column="43" />
-      <File FileName="mission2RyanPinkney/wwwroot/js/gradecalculator.js" Line="23" Column="27" />
-      <File FileName="mission2RyanPinkney/Views/Main/GradeCal.cshtml" Line="26" Column="8" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mission2RyanPinkney" expanded="True">
-            <Node name="mission2RyanPinkney" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Main" expanded="True">
-                  <Node name="GradeCal.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="mission2RyanPinkney" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
