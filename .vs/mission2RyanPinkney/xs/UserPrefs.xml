@@ -1,10 +1,7 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="mission2RyanPinkney/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="35" Column="25" />
-      <File FileName="mission2RyanPinkney/Models/GradeCal.cs" Line="11" Column="9" />
-      <File FileName="mission2RyanPinkney/Views/Main/GradeCal.cshtml" Line="25" Column="20" />
-      <File FileName="mission2RyanPinkney/wwwroot/js/gradecalculator.js" Line="24" Column="1" />
+      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
