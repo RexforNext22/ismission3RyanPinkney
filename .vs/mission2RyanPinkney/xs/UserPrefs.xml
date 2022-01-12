@@ -1,7 +1,8 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E24000B2-28C3-4601-AEE1-91FB80AF6A54}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="mission2RyanPinkney/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="35" Column="6" />
+      <File FileName="mission2RyanPinkney/Views/Shared/_Layout.cshtml" Line="17" Column="7" />
+      <File FileName="mission2RyanPinkney/Views/Main/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
