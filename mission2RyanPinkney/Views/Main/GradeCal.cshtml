@@ -2,26 +2,43 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-
+    // Set the title for this page
     ViewData["Title"] = "Grade Calculator";
 }
 
-@model GradeCal;
+<!--Ryan Pinkney
+This is the grade calculator html page which will display a form to calculate the course grade
+-->
 
+
+<!--Razor code to import the model-->
+@model GradeCal;
 <!--Grade calcualtor form-->
 <h3 style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;">Grade Calculator</h3>
 <br />
 <form style="style=" text-align: center; display: inline-block; margin-left: 30%; margin-right: 20%;" method="POST">
-    <label>Assignments</label> <!--Place for the user to input the grade percentage-->
+
+    <!--Label and input for assignments-->
+    <label>Assignments</label>
     <input id="Assignment" type="text" asp-for="iAssignment" /><br /><br />
-    <label>Group Project</label> <!--Place for the user to input the grade percentage-->
+
+    <!--Label and input for GroupProject-->
+    <label>Group Project</label>
     <input id="GroupProject" type="text" asp-for="iGroupProject" /><br /><br />
-    <label>Quizzes</label> <!--Place for the user to input the grade percentage-->
+
+    <!--Label and input for Quizzes-->
+    <label>Quizzes</label>
     <input id="Quizzes" type="text" asp-for="iQuizzes" /><br /><br />
-    <label>Exams</label> <!--Place for the user to input the grade percentage-->
+
+    <!--Label and input for Exams-->
+    <label>Exams</label>
     <input id="Exams" type="text" asp-for="iExams" /><br /><br />
-    <label>INTEX</label> <!--Place for the user to input the grade percentage-->
+
+    <!--Label and input for INTEX-->
+    <label>INTEX</label>
     <input id="INTEX" type="text" asp-for="iINTEX" /><br /><br />
+
+
     <input id="cal" type="submit" value="Calculate Grade" /> <!--Button to submit the information in the form-->
     <!--To run the logic in javascript add id="cal"-->
     <div asp-validation-summary="All"></div>

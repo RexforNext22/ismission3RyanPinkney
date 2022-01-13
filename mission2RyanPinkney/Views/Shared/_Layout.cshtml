@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<!--
+Author: Ryan Pinkney
+    This is the shared html page
+
+-->
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -16,6 +22,7 @@
 </head>
 <body>
 
+    <!--Shared navigation bar with tag helpers-->
     <nav>
         <a asp-controller="Main" asp-action="Index">Home</a>
         <a asp-controller="Main" asp-action="GradeCal">Grade Calculator</a>
@@ -23,7 +30,7 @@
     </nav>
 
 
-
+    <!--Position of the rendering of individual pages of html-->
     @RenderBody()
 
     <!--Import the different js files to my index page.-->

@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Author: Ryan Pinkney
+// Main Controller
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +21,7 @@ namespace mission2RyanPinkney.Controllers
             return View();
         }
 
-        // GET: /<controller>/
+        // GET: /<controller>/ for the grade calculator html page
         [HttpGet]
         public IActionResult GradeCal()
         {

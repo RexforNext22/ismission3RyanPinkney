@@ -6,7 +6,6 @@
 $("form").submit(function (event) {
 
             // Collect the input values
-
             iAssignment = parseInt($("#Assignment").val())
             iGroupProject = parseInt($("#GroupProject").val())
             iQuizzes = parseInt($("#Quizzes").val())
